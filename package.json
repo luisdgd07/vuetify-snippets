@@ -1,0 +1,20 @@
+{
+  "name": "vuetify-snippets",
+  "displayName": "Vuetify Snippets",
+  "description": "Snippets of Vuetify components and tags used in Vue",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

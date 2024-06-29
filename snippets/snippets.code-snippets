@@ -1,0 +1,788 @@
+{
+    "v-app":{
+        "prefix": "vapp",
+        "body": [
+            "<template>",
+            "   <v-app>",
+            "       <v-main>",
+            "           <v-container>",
+            "               <router-view></router-view>",
+            "               $1",
+            "           </v-container>",
+            "       </v-main>",
+            "   </v-app>",
+            "</template>",
+            "",
+            "<script>",
+            "",
+            "export default {",
+            "   name: '$2',",
+            "   components: {$3}",
+            "   props: {$4}",
+            "   data: () => ({$5}),",
+            "   computed: {$6}",
+            "   created: {$7}",
+            "   mounted: {$8}",
+            "   methods: {$9}",
+            "}",
+            "</script>",
+        ],
+     "description": "The <v-app> component is a mandatory wrapper for your application in Vuetify. It encapsulates your entire application, including the navigation bar, sidebars, and main content. This component provides the necessary context and styling for your app, ensuring consistent behavior and appearance across all browsers and devices."
+    },
+    "v-component":{
+        "prefix": "vcomponent",
+        "body": [
+            "<template>",
+            "   $1",
+            "</template>",
+            "",
+            "<script>",
+            "",
+            "export default {",
+            "   name: '$2',",
+            "   components: {$3}",
+            "   props: {$4}",
+            "   data: () => ({$5}),",
+            "   computed: {$6}",
+            "   created: {$7}",
+            "   mounted: {$8}",
+            "   methods: {$9}",
+            "}",
+            "</script>",
+        ],
+        "description": "A general-purpose Vuetify component template. Use this as a starting point to create custom components in your application. It includes sections for template markup, component registration, props, data, computed properties, lifecycle hooks, and methods."
+    },
+    "v-alert": {
+        "prefix": "valert",
+        "body": [
+            "<v-alert type=\"$1\" border=\"$2\" elevation=\"$3\" color=\"$4\">",
+            "   $5",
+            "</v-alert>",
+            ""
+        ],
+        "description": "The <v-alert> component is used to display important messages to the user. It supports various types such as success, info, warning, and error. You can customize its appearance using the border, elevation, and color props. The alert content is passed as a slot."
+    },
+    "v-avatar": {
+        "prefix": "vavatar",
+        "body": [
+            "<v-avatar>",
+            "   <img",
+            "       src=\"$1\"",
+            "       alt=\"$2\"",
+            "       size=\"$3\"",
+            "   >",
+            "</v-avatar>",
+            ""
+        ],
+        "description": "The <v-avatar> component is used to display circular images or icons, commonly used to represent a user or an object. You can specify the image source, alternative text, and size. This component ensures that the content is properly scaled and centered."
+    },
+    "v-badge": {
+        "prefix": "vbadge",
+        "body": [
+            "<v-badge",
+            "   color=\"$1\"",
+            "   >",
+            "$2",
+            "</v-badge>",
+            ""
+        ],
+        "description": "The <v-badge> component is used to highlight an item by adding a small badge to it. This badge can display additional information or status, such as notifications or unread counts. The color prop allows you to customize the badge's background color."
+    },
+    "v-banner": {
+        "prefix": "vbanner",
+        "body": [
+            "<v-badge>",
+            "   color=\"$1\"",
+            "   $2",
+            "</v-badge>",
+            ""
+        ],
+         "description": "The <v-banner> component is used to display prominent messages or notifications within your application. It can span the entire width of the screen and is typically used for important information or actions that require user attention. The color prop customizes the background color."
+    },
+    "v-app-bar": {
+        "prefix": "vappbar",
+        "body": [
+            "<v-app-bar color=\"$1\" dense dark>",
+            "   <v-app-bar-nav-icon></v-app-bar-nav-icon>",
+            "   <v-toolbar-title>$2</v-toolbar-title>",
+            "   <v-spacer></v-spacer>",
+            "   <v-btn icon>",
+            "     <v-icon>$3</v-icon>",
+            "   </v-btn>",
+            "</v-app-bar>"
+        ],
+        "description": "The <v-app-bar> component is used to create application headers. It supports various props for customization such as color, density, and theme (dark/light). The app bar can contain navigation icons, titles, spacers, and action buttons, making it a versatile tool for application layout."
+    },
+    "v-bottom-navigation": {
+        "prefix": "vbottomnavigation",
+        "body": [
+            "<v-bottom-navigation  v-model=\"$1\" color=\"$2\">",
+            "   <v-btn value=\"$3\">",
+            "       <span>$4</span>",
+            "       <v-icon>$5</v-icon>",
+            "   </v-btn>",
+            "</v-bottom-navigation>"
+        ],
+        "description": "The <v-bottom-navigation> component is used to create a bottom navigation bar. It supports multiple buttons with icons and labels, allowing users to navigate between different sections of your application. The v-model prop is used to bind the active button, and the color prop customizes the background color."
+    },
+    "v-breadcrumbs": {
+        "prefix": "vbreadcrumbs",
+        "body": [
+            "<v-breadcrumbs :items=\"$1\" >",
+            "   $2",
+            "</v-breadcrumbs>"
+        ],
+        "description": "The <v-breadcrumbs> component is used to display a trail of navigational links, indicating the current page's location within the hierarchical structure of your application. The items prop is an array of breadcrumb objects, and you can include additional slot content for customization."
+    },
+
+    "v-btn": {
+        "prefix": "vbtn",
+        "body": [
+            "<v-btn color=\"$1\">$2</v-btn>",
+        ],
+        "description": "The <v-btn> component is a versatile button element in Vuetify. It supports various props to customize its appearance and behavior, including color, size, and elevation. The button can include text, icons, and other content, making it suitable for a wide range of interactive elements."
+    },
+    "v-fab": {
+        "prefix": "vfab",
+        "body": [
+            "<v-btn fab dark color=\"$1\">",
+            "   $2",
+            "   <v-icon dark>$3</v-icon>",
+            "</v-btn>"
+        ],
+        "description": "The <v-btn> component with the 'fab' prop creates a floating action button (FAB). This button is typically used for primary actions in an application. The 'dark' prop applies the dark theme, while the 'color' prop customizes the button's background color. An icon can be added inside the button for visual representation of the action."
+    },
+    "v-calendar": {
+        "prefix": "vcalendar",
+        "body": [
+            "<v-calendar",
+            "   v-model=\"$1\"",
+            ">",
+            "   $2",
+            "</v-calendar>"
+        ],
+         "description": "The <v-calendar> component is used to display a calendar view for selecting dates or managing events. It supports two-way data binding through the v-model prop and can be customized with various slots and props to suit different use cases."
+    },
+
+    "v-card": {
+        "prefix": "vcard",
+        "body": [
+            "<v-card",
+            "  class=\"$1\"",
+            "  max-width=\"$2\"",
+            ">",
+            "       <v-card-text>",
+            "           <p class=\"$3\">",
+            "               $4",
+            "           </p>",
+            "           <div>",
+            "               $5",
+            "           </div>",
+            "       </v-card-text>",
+            "       <v-card-actions>",
+            "           <v-btn",
+            "               color=\"$6\"",
+            "               @click=\"$7\"",
+            "           >",
+            "               $8",
+            "           </v-btn>",
+            "       /v-card-actions>",
+            "</v-card>"
+        ],
+        "description": "The <v-card> component is a versatile container that can hold various types of content, such as text, images, and actions. It supports customizable classes and maximum width, making it adaptable to different layouts. The card includes text and actions sections for displaying content and interactive elements."
+    },
+    "v-carousel": {
+        "prefix": "vcarousel",
+        "body": [
+            "<v-carousel",
+            "    height=\"$1\"",
+            "    show-arrows-on-hover",
+            "  >",
+            "    <v-carousel-item >",
+            "      <v-sheet",
+            "        height=\"100%\"",
+            "      >",
+            "        <v-row",
+            "          class=\"fill-height\"",
+            "          align=\"center\"",
+            "          justify=\"center\"",
+            "        >",
+            "        </v-row>",
+            "      </v-sheet>",
+            "    </v-carousel-item>",
+            "  </v-carousel>"
+        ],
+         "description": "The <v-carousel> component is used to create a slideshow for cycling through a series of content, such as images or text. It supports customizable height and shows navigation arrows on hover. The <v-carousel-item> component is used to define each slide, and additional layout components like <v-sheet> and <v-row> can be used for further customization."
+    },
+
+    "v-chip": {
+        "prefix": "vchip",
+        "body": [
+            "<v-chip",
+            "   color=\"$1\"",
+            ">",
+            "   $2",
+            "</v-chip>"
+        ],
+        "description": "The <v-chip> component is used to display small pieces of information in a compact form. Chips can contain text, icons, or both, and the color prop allows you to customize their background color. Chips are often used for tags, labels, or contact information."
+    },
+    "v-dialog": {
+        "prefix": "vdialog",
+        "body": [
+            "<v-dialog",
+            "   v-model=\"dialog\"",
+            "   width=\"500\"",
+            "   >",
+            "   <v-card>",
+            "       <v-card-title>",
+            "           $1",
+            "       </v-card-title>",
+            "       <v-card-text>",
+            "           $2",
+            "       </v-card-text>",
+            "   </v-card>",
+            "</v-dialog>"
+        ],
+        "description": "The <v-dialog> component is used to create modals or dialogs. It supports two-way data binding through the v-model prop and can be customized with width and other props. The dialog typically contains a card with a title and text content, allowing for various types of interactive elements."
+    },
+    "v-divider": {
+        "prefix": "vdivider",
+        "body": [
+            "<v-divider>",
+            "</v-divider>"
+        ],
+         "description": "The <v-divider> component is used to separate content into distinct sections. It creates a thin line that can be styled using various props to match the design of your application. Dividers are useful for organizing and structuring complex layouts."
+    },
+    "v-expansion-panels": {
+        "prefix": "vexpansion-panels",
+        "body": [
+            "<v-expansion-panels>",
+            "   <v-expansion-panel>",
+            "       <v-expansion-panel-header>",
+            "           $1",
+            "       </v-expansion-panel-header>",
+            "       <v-expansion-panel-content>",
+            "           $2",
+            "       </v-expansion-panel-content>",
+            "   </v-expansion-panel>",
+            "</v-expansion-panels>"
+        ],
+        "description": "The <v-expansion-panels> component is used to create collapsible panels that can expand to reveal additional content. Each panel includes a header and content section, allowing users to hide or show information as needed. This component is ideal for FAQs, settings pages, and other areas where content organization is essential."
+    },
+    "v-footer": {
+        "prefix": "vfooter",
+        "body": [
+            "<v-footer>",
+            "   <v-card>",
+            "       <v-card-text>",
+            "           $1",
+            "       </v-card-text>",
+            "       <v-card-text>",
+            "           $2",
+            "       </v-card-text>",
+            "       <v-card-text>",
+            "           {{ new Date().getFullYear() }} — <strong>$3</strong>",
+            "       </v-card-text>",
+            "   </v-card>",
+            "</v-footer>",
+        ],
+        "description": "The <v-footer> component is used to create a footer section for your application. It typically contains text, links, and other elements. The footer can be styled using various props and slots, and it often includes information such as the current year and company name."
+    },
+    "v-autocomplete": {
+        "prefix": "vautocomplete",
+        "body": [
+            "<v-autocomplete",
+            "   v-model=\"$1\"",
+            "   :items=\"$2\"",
+            "   >",
+            "</v-autocomplete>"
+        ],
+    "description": "The <v-autocomplete> component is used to create a text input that provides suggestions as the user types. It supports two-way data binding through the v-model prop and takes an array of items for the suggestion list. This component is useful for implementing search boxes, dropdowns, and other forms of predictive text input."
+    },
+    "<v-checkbox": {
+        "prefix": "vcheckbox",
+        "body": [
+            "<v-checkbox",
+            "   v-model=\"$1\"",
+            "   :label=\"$2\"",
+            "   >",
+            "</v-checkbox>"
+        ],
+        "description": "The <v-checkbox> component is used to create a checkbox input. It supports two-way data binding through the v-model prop and allows you to set a label using the label prop. This component is useful for selecting multiple options from a list."
+    },
+    "v-combobox": {
+        "prefix": "vcombobox",
+        "body": [
+            "<v-combobox",
+            "   v-model=\"$1\"",
+            "   color=\"$2\"",
+            "   label=\"$3\"",
+            "   multiple",
+            "></v-combobox>"
+        ],
+        "description": "The <v-combobox> component is a hybrid of a text input and a select box, allowing users to choose from predefined options or enter custom values. It supports multiple selections with the multiple prop and can be styled using the color and label props."
+    },
+    "v-file-input": {
+        "prefix": "vfileinput",
+        "body": [
+            "<v-file-input accept=\"image/*\" label=\"$1\"></v-file-input>",
+            ""
+        ],
+        "description": "The <v-file-input> component is used to create a file input field. It supports specifying the types of files that can be uploaded using the accept prop and allows you to set a label for the input field. This component is commonly used for uploading images or other files."
+    },
+    "v-form": {
+        "prefix": "vform",
+        "body": [
+            "<v-form v-model=\"$1\">",
+            "   <v-container>",
+            "       <v-row>",
+            "           <v-col",
+            "               cols=\"12\"",
+            "               xs=\"12\"",
+            "               sm=\"12\"",
+            "               md=\"12\"",
+            "               lg=\"12\"",
+            "               xl=\"12\"",
+            "               >",
+            "               <v-text-field",
+            "                    v-model=\"$2\"",
+            "                    label=\"$3\"",
+            "               >",
+            "               </v-text-field>",
+            "           </v-col>",
+            "       </v-row>",
+            "   </v-container>",
+        ],
+        "description": "The <v-form> component is used to create forms in Vuetify. It supports two-way data binding through the v-model prop and can contain various input fields like text fields, checkboxes, and buttons. The form is structured using <v-container>, <v-row>, and <v-col> for layout."
+    },
+    "v-text-field": {
+        "prefix": "vtextfield",
+        "body": [
+            "<v-text-field type=\"$1\" error-count=\"$2\" placeholder=\"$3\" ",
+            "label=\"$4\" append-icon=\"$5\"  v-model=\"$6\" outlined color></v-text-field>",
+            ""
+        ],
+        "description": "The <v-text-field> component is a versatile text input field in Vuetify. It supports various props for customization, such as type, error-count, placeholder, label, and append-icon. The v-model prop is used for two-way data binding, and the outlined and color props allow for additional styling."
+    },
+    "v-otp-input": {
+        "prefix": "votpinput",
+        "body": [
+            "<v-otp-input ",
+            "   length=\"$1\"",
+            "></v-otp-input>",
+        ],
+        "description": "The <v-overflow-btn> component is a button that can display a dropdown of items when clicked. It supports an array of items through the items prop, making it useful for creating dropdown menus or selection lists within a button."
+    },
+    "v-overflow-btn": {
+        "prefix": "voverflowbtn",
+        "body": [
+            "<v-overflow-btn",
+            "   :items=\"$1\"",
+            "></v-overflow-btn>",
+        ],
+        "description": "The <v-radio-group> component is used to group radio buttons, allowing the user to select one option from a list. It supports two-way data binding through the v-model prop and individual radio buttons can be labeled using the label prop."
+    },
+    "v-radio-group": {
+        "prefix": "vradiogroup",
+        "body": [
+            "<v-radio-group v-model=\"$1\">",
+            "   <v-radio",
+            "   :label=\"$2\"",
+            "   ></v-radio>",
+            "</v-radio-group>",
+        ],
+        "description": "The <v-range-slider> component is used to create a slider input that allows users to select a range of values. It supports min and max props to define the range limits, making it suitable for selecting numerical ranges, such as price or quantity filters."
+    },
+    "v-range-slider": {
+        "prefix": "vrangeslider",
+        "body": [
+            "<v-range-slider",
+            "   :min=\"$1\"",
+            "   :max=\"$2\">",
+            "</v-range-slider>",
+        ],
+        "description": "The <v-range-slider> component provides a range slider input allowing users to select a range of values within a specified minimum and maximum. It is useful for implementing filters or setting value ranges."
+    },
+    "v-select": {
+        "prefix": "vselect",
+        "body": [
+            "<v-select color v-model=\"$1\" :items=\"items\"  ",
+            "label=\"$2\"></v-select>",
+            ""
+        ],
+        "description": "The <v-select> component creates a dropdown select input. It supports two-way data binding with the v-model prop and allows the display of selectable items through the items prop. It can be customized with label and color props."
+    },
+    "v-slider": {
+        "prefix": "vslider",
+        "body": [
+            "<v-slider   ",
+            "   label=\"$1\"",
+            "   value=\"$2\"",
+            "></v-slider>"
+        ],
+        "description": "The <v-slider> component provides a slider input for selecting a single value from a range. It is customizable with label and value props, making it suitable for adjusting numerical values."
+    },
+    "v-switch": {
+        "prefix": "vswitch",
+        "body": [
+            "<v-switch",
+            "   v-model=\"$1\"",
+            "></v-switch>"
+        ],
+        "description": "The <v-switch> component is used to create a toggle switch input. It supports two-way data binding through the v-model prop, allowing users to switch between two states, such as on and off."
+    },
+        
+    "v-textarea": {
+        "prefix": "vtextarea",
+        "body": [
+            "<v-textarea",
+            "   color=\"$1\"",
+            "   placeholder=\"$2\"",
+            "   v-model=\"$3\"",
+            "></v-textarea> "
+        ],
+        "description": "The <v-textarea> component provides a multi-line text input field. It supports customization through color and placeholder props and enables two-way data binding with the v-model prop."
+    },
+    "v-row": {
+        "prefix": "vrow",
+        "body": [
+            "<v-row>",
+            "    <v-col",
+            "        cols=\"12\"",
+            "        xs=\"12\"",
+            "        sm=\"12\"",
+            "        md=\"12\"",
+            "        lg=\"12\"",
+            "        xl=\"12\"",
+            "    >",
+            "        <v-text-field",
+            "             v-model=\"$1\"",
+            "             label=\"$2\"",
+            "        >",
+            "        </v-text-field>",
+            "    </v-col>",
+            "</v-row>",
+        ],
+        "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+    },
+    "v-btn-toggle": {
+        "prefix": "vbtntoggle",
+        "body": [
+            "<v-btn-toggle",
+            "   v-model=\"$1\"",
+            ">",
+            "   <v-btn>",
+            "       $2",
+            "   </v-btn>",
+            "</v-btn-toggle>"
+        ],
+        "description": "The <v-btn-toggle> component is a wrapper for creating toggleable button groups. It supports two-way data binding with the v-model prop and can contain multiple <v-btn> elements for different options."
+    },
+    "v-chip-group": {
+        "prefix": "vchipgroup",
+        "body": [
+            "<v-chip-group",
+            "   color=\"$1\"",
+            "   placeholder=\"$2\"",
+            "   v-model=\"$3\"",
+            ">",
+            "   <v-chip>",
+            "   </v-chip>",
+            "</v-chip-group> "
+        ],
+        "description": "The <v-chip-group> component allows grouping multiple <v-chip> components together. It supports color and placeholder props for customization and v-model for two-way data binding."
+    },
+    "v-item-group": {
+        "prefix": "vitemgroup",
+        "body": [
+            "<v-item-group>",
+            "   <v-container>",
+            "       <v-row>",
+            "           <v-col",
+            "               cols=\"12\"",
+            "               xs=\"12\"",
+            "               sm=\"12\"",
+            "               md=\"12\"",
+            "               lg=\"12\"",
+            "               xl=\"12\"",
+            "           >",
+            "               <v-item>",
+            "                   <v-card>",
+            "                       <v-scroll-y-transition>",
+            "                           $1",
+            "                       </v-scroll-y-transition>",
+            "                   </v-card>",
+            "               </v-item>",
+            "           </v-col>",
+            "       </v-row>",
+            "   </v-container>",
+            "</v-item-group>",
+        ],
+        "description": "The <v-item-group> component is used to group multiple items together. It can contain various components like <v-item>, <v-card>, and <v-scroll-y-transition> for structured layouts within a responsive grid."
+    },
+    "v-list-group": {
+        "prefix": "vlistgroup",
+        "body": [
+            "<v-list>",
+            "   <v-list-item-group v-model=\"$1\">",
+            "       <v-list-item>",
+            "           <v-list-item-icon>",
+            "           </v-list-item-icon>",
+            "           <v-list-item-content>",
+            "           </v-list-item-content>",
+            "           <v-list-item-title>$2</v-list-item-title>",
+            "       </v-list-item>",
+            "   </v-list-item-group>",
+            "</v-list>",
+        ],
+        "description": "The <v-list-group> component is used to group list items together within a list. It supports v-model for two-way data binding, making it suitable for creating interactive lists."
+    },
+    "v-slide-group": {
+        "prefix": "vslidegroup",
+        "body": [
+            "<v-sheet",
+            "   max-width=\"$1\"",
+            ">",
+            "   <v-slide-group>",
+            "       <v-slide-item>",
+            "           <v-btn>",
+            "               $2",
+            "           </v-btn>",
+            "       </v-slide-item>",
+            "   </v-slide-group>",
+            "</v-sheet>",
+        ],
+        "description": "The <v-slide-group> component is used for creating sliding groups of items, such as buttons or cards. It can be wrapped in a <v-sheet> for layout control, and each item is defined with <v-slide-item>."
+    },
+    "v-icon": {
+        "prefix": "vicon",
+        "body": [
+            "<v-icon color=\"$1\">$2</v-icon>",
+        ],
+        "description": "The <v-icon> component is used to display icons with optional color customization. It is versatile for enhancing the visual appeal of the UI with various icon sets."
+    },
+    
+    "v-img": {
+        "prefix": "vimg",
+        "body": [
+            "<v-img src=\"$1\"></v-img>",
+            ""
+        ],
+        "description": "The <v-img> component is used to display images. It supports a src prop for the image source, and it can be customized for responsive and lazy-loaded images."
+    },
+    "v-list": {
+        "prefix": "vlist",
+        "body": [
+            "<v-list>",
+            "   <v-list-item>",
+            "       <v-list-item-icon>",
+            "       </v-list-item-icon>",
+            "       <v-list-item-content>",
+            "       </v-list-item-content>",
+            "       <v-list-item-title>$1</v-list-item-title>",
+            "       <v-list-item-subtitle>$2</v-list-item-subtitle>",
+            "   </v-list-item>",
+            "</v-list>",
+        ],
+        "description": "The <v-list> component is used to create a list of items. Each <v-list-item> can include an icon, content, title, and subtitle, making it ideal for menus, settings, and more."
+    },
+    "v-menu": {
+        "prefix": "vmenu",
+        "body": [
+            "<v-menu offset-y>",
+            "  <template v-slot:activator=\"{ on, attrs }\">",
+            "    <v-btn",
+            "      color=\"$1\"",
+            "      v-bind=\"attrs\"",
+            "      v-on=\"on\"",
+            "    >",
+            "    </v-btn>",
+            "  </template>",
+            "  <v-list>",
+            "    <v-list-item",
+            "      v-for=\"(item, index) in items\"",
+            "      :key=\"index\"",
+            "    >",
+            "      <v-list-item-title>{{ item.title }}</v-list-item-title>",
+            "    </v-list-item>",
+            "  </v-list>",
+            "</v-menu>"
+        ],
+        "description": "The <v-menu> component creates a dropdown menu activated by a button or any other component. It supports slots for custom activators and contains a list of items that can be iterated over using v-for."
+    },
+    "v-pagination": {
+        "prefix": "vpagination",
+        "body": [
+            "<v-pagination",
+            "   v-model=\"page\"",
+            "   :length=\"$1\"",
+            "></v-pagination>"
+        ],
+        "description": "The <v-pagination> component is used to create pagination controls. It supports v-model for two-way data binding and the length prop to define the number of pages."
+    },
+    "v-date-picker": {
+        "prefix": "vdatepicker",
+        "body": [
+            "<v-date-picker v-model=\"$1\"></v-date-picker>",
+        ],
+        "description": "The <v-date-picker> component is used to create a date selection input. It supports v-model for two-way data binding, making it easy to use in forms and date-related inputs."
+    },
+    
+    "v-time-picker": {
+        "prefix": "vtimepicker",
+        "body": [
+            "<v-time-picker v-model=\"$1\"></v-time-picker>",
+        ],
+        "description": "The <v-time-picker> component is used to create a time selection input. It supports v-model for two-way data binding, making it useful for time-related inputs in forms."
+    },
+    "v-progress-circular": {
+        "prefix": "vprogresscircular",
+        "body": [
+            "<v-progress-circular      ",
+            "   color=\"$1\"",
+            "></v-progress-circular>"
+        ],
+        "description": "The <v-progress-circular> component is used to display circular progress indicators. It supports color customization."
+    },
+    "v-progress-linear": {
+        "prefix": "vprogresslinear",
+        "body": [
+            "<v-progress-linear value=\"$1\"></v-progress-linear>",
+        ],
+        "description": "The <v-progress-linear> component is used to display linear progress indicators. The value prop sets the progress percentage."
+    },
+    "v-rating": {
+        "prefix": "vrating",
+        "body": [
+            "<v-rating",
+            "   v-model=\"rating\"",
+            "   background-color=\"$1\"",
+            "   color=\"$2\"",
+            "></v-rating>"
+        ],
+        "description": "The <v-rating> component is used to display and input ratings. It supports v-model for two-way data binding and color customization for the background and stars."
+    },
+    "v-sheet": {
+        "prefix": "vsheet ",
+        "body": [
+            "<v-sheet color=\"$1\">$2</v-sheet>",
+        ],
+        "description": "The <v-sheet> component is used to create layout containers with optional color customization."
+    },
+    "v-skeleton": {
+        "prefix": "vskeleton ",
+        "body": [
+            "<v-sheet class=\"$1\" >",
+            "   <v-skeleton-loader",
+            "       class=\"$2\"",
+            "       max-width=\"$3\"",
+            "       type=\"card\"",
+            "   ></v-skeleton-loader>",
+            "</v-sheet>"
+        ],
+         "description": "The <v-skeleton> component is used to display loading placeholders. It supports various styles and sizes."
+    },
+
+    "v-tab": {
+        "prefix": "vtabs",
+        "body": [
+            "<v-tabs",
+            "    background-color=\"$1\"",
+            "  >",
+            "    <v-tab>",
+            "      $2",
+            "    </v-tab>",
+            "</v-tabs>"
+        ],
+         "description": "The <v-tabs> component is used to create tabbed navigation. It supports elevation, background color customization, and can contain multiple <v-tab> components."
+    },
+    
+    
+    "v-color-picker": {
+        "prefix": "vcolorpicker",
+        "body": [
+            "<v-color-picker",
+            "   v-model=\"picker\"",
+            "   flat",
+            "></v-color-picker>"
+        ],
+        "description": "The <v-color-picker> component is used to create a color selection input. It supports v-model for two-way data binding and can be displayed as a flat picker."
+    },
+    "v-btn-icon": {
+        "prefix": "vbtnicon",
+        "body": [
+            "<v-btn class=\"$1\" color=\"$2\" dark>$3",
+            "   <v-icon dark right>$4</v-icon>",
+            "</v-btn>",
+        ],
+        "description": "The <v-btn-icon> snippet creates a button with an icon inside. You can customize the button class, color, and the icon."
+    },
+
+    "v-timeline": {
+        "prefix": "vtimeline",
+        "body": [
+            "<v-timeline>",
+            "   <v-timeline-item>$1</v-timeline-item>",
+            "</v-timeline>"
+        ],
+        "description": "The <v-timeline> component is used to create a timeline of events. Each <v-timeline-item> represents an event in the timeline."
+    },
+    
+    "v-subheader": {
+        "prefix": "vsubheader",
+        "body": [
+            "<v-subheader>$1</v-subheader>",
+        ],
+         "description": "The <v-subheader> component is used to create a subheader in a list or other components."
+    },
+
+    "v-container": {
+        "prefix": "vcontainer ",
+        "body": [
+            "<v-container class=\"$1\">",
+            "   <v-row>",
+            "       <v-col></v-col>",
+            "   </v-row>",
+            "</v-container>"
+        ],
+        "description": "The <v-container> component is used to create a container for layout purposes. It includes a row and a column for content placement."
+    },
+    "v-window": {
+        "prefix": "vwindow",
+        "body": [
+            "<v-window v-model=\"$1\" reverse>",
+            "   <v-window-item>",
+            "       <v-card",
+            "           color=\"$2\"",
+            "           height=\"$3\"",
+            "       >",
+            "           <v-row",
+            "               class=\"$4\"",
+            "               align=\"center\"",
+            "               justify=\"center\"",
+            "           >",
+            "           </v-row>",
+            "       </v-card>",
+            "   </v-window-item>",
+            "</v-window>",
+        ],
+        "description": "The <v-window> component is used to create a window with multiple items. Each <v-window-item> can contain content like cards."
+    },
+    "v-system-bar": {
+        "prefix": "vsystembar",
+        "body": [
+            "<v-system-bar",
+            "   color=\"$1\">",
+            "   <v-icon>mdi-gmail</v-icon>",
+            "   <span>10 unread emails</span>",
+            "   <v-spacer></v-spacer>",
+            "   <v-icon>mdi-wifi-strength-4</v-icon>",
+            "   <v-icon>mdi-signal-cellular-outline</v-icon>",
+            "   <v-icon>mdi-battery</v-icon>",
+            "   <span>12:30</span>",
+            "</v-system-bar>"
+        ],
+        "description": "The <v-system-bar> component is used to create a system bar with icons and text, representing notifications and system status."
+    },
+
+}
