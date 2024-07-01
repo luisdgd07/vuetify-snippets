@@ -1,7 +1,9 @@
 {
-  "name": "vuetify-snippets",
-  "displayName": "Vuetify Snippets",
+  "name": "vuetify-2-3-snippets",
+  "publisher": "LuisDavidGonzalez",
+  "displayName": "Vuetify 2 & 3 Snippets",
   "description": "Snippets of Vuetify components and tags used in Vue",
+  "repository": "https://github.com/luisdgd07/vuetify-snippets",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.90.0"
@@ -9,11 +11,32 @@
   "categories": [
     "Snippets"
   ],
+  "keywords": [
+    "vue",
+    "vue 2",
+    "vue 3",
+    "vuejs",
+    "components",
+    "vuetify",
+    "vuetify snippet",
+    "vuetify snippets",
+    "vuetify-snippet",
+    "vuetify-snippets",
+    "snippets",
+    "material design"
+  ],
+  "author": {
+    "name": "Luis David Gonzalez"
+  },
   "contributes": {
     "snippets": [
       {
         "language": "vue",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/vuetify.code-snippets"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/vuetify.code-snippets"
       }
     ]
   }
