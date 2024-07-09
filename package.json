@@ -4,7 +4,7 @@
   "displayName": "Vuetify 2 & 3 Snippets",
   "description": "Snippets of Vuetify components and tags used in Vue",
   "repository": "https://github.com/luisdgd07/vuetify-snippets",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -28,6 +28,7 @@
   "author": {
     "name": "Luis David Gonzalez"
   },
+  "icon": "img/icon.png",
   "contributes": {
     "snippets": [
       {

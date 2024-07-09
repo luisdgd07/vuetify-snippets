@@ -17,13 +17,13 @@
             "",
             "export default {",
             "   name: '$2',",
-            "   components: {$3}",
-            "   props: {$4}",
+            "   components: {$3},",
+            "   props: {$4},",
             "   data: () => ({$5}),",
-            "   computed: {$6}",
-            "   created: {$7}",
-            "   mounted: {$8}",
-            "   methods: {$9}",
+            "   computed: {$6},",
+            "   created: {$7},",
+            "   mounted: {$8},",
+            "   methods: {$9},",
             "}",
             "</script>",
         ],
@@ -33,20 +33,22 @@
         "prefix": "vcomponent",
         "body": [
             "<template>",
-            "   $1",
+            "   <div>",
+            "       $1",
+            "   </div>",
             "</template>",
             "",
             "<script>",
             "",
             "export default {",
             "   name: '$2',",
-            "   components: {$3}",
-            "   props: {$4}",
+            "   components: {$3},",
+            "   props: {$4},",
             "   data: () => ({$5}),",
-            "   computed: {$6}",
-            "   created: {$7}",
-            "   mounted: {$8}",
-            "   methods: {$9}",
+            "   computed: {$6},",
+            "   created: {$7},",
+            "   mounted: {$8},",
+            "   methods: {$9},",
             "}",
             "</script>",
         ],
@@ -455,11 +457,7 @@
             "        lg=\"12\"",
             "        xl=\"12\"",
             "    >",
-            "        <v-text-field",
-            "             v-model=\"$1\"",
-            "             label=\"$2\"",
-            "        >",
-            "        </v-text-field>",
+            "       $1",
             "    </v-col>",
             "</v-row>",
         ],
@@ -683,7 +681,7 @@
          "description": "The <v-skeleton> component is used to display loading placeholders. It supports various styles and sizes."
     },
 
-    "v-tab": {
+    "v-tabs": {
         "prefix": "vtabs",
         "body": [
             "<v-tabs",
@@ -695,6 +693,15 @@
             "</v-tabs>"
         ],
          "description": "The <v-tabs> component is used to create tabbed navigation. It supports elevation, background color customization, and can contain multiple <v-tab> components."
+    },
+    "v-tab": {
+        "prefix": "vtab",
+        "body": [
+            "<v-tab>",
+            "  $1",
+            "</v-tab>",
+        ],
+         "description": "The <v-tab> component is used to create tabbed navigation."
     },
     
     
@@ -711,7 +718,8 @@
     "v-btn-icon": {
         "prefix": "vbtnicon",
         "body": [
-            "<v-btn class=\"$1\" color=\"$2\" dark>$3",
+            "<v-btn class=\"$1\" color=\"$2\" dark>",
+            "   $3",
             "   <v-icon dark right>$4</v-icon>",
             "</v-btn>",
         ],
@@ -784,5 +792,20 @@
         ],
         "description": "The <v-system-bar> component is used to create a system bar with icons and text, representing notifications and system status."
     },
-
+    "v-spacer": {
+        "prefix": "vspacer",
+        "body": [
+            "<v-spacer/>",
+        ],
+        "description": "The <v-spacer> component is used to create a flexible spacer that can be used to separate content within a container."
+    },
+    "template": {
+        "prefix": "template",
+        "body": [
+            "<template>",
+            "   $1",
+            "</template>"
+        ],
+        "description": "The <template> tag is used to define a template that can be used as a blueprint for content within a Vue component."
+    },
 }
