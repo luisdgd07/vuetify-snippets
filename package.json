@@ -4,7 +4,7 @@
   "displayName": "Vuetify 2 & 3 Snippets",
   "description": "Snippets of Vuetify components and tags used in Vue",
   "repository": "https://github.com/luisdgd07/vuetify-snippets",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -33,11 +33,19 @@
     "snippets": [
       {
         "language": "vue",
-        "path": "./snippets/vuetify.code-snippets"
+        "path": "./snippets/vuetify.json"
       },
       {
         "language": "vue-html",
-        "path": "./snippets/vuetify.code-snippets"
+        "path": "./snippets/vuetify.json"
+      },
+      {
+        "language": "vue-postcss",
+        "path": "./snippets/vuetify.json"
+      },
+      {
+        "language": "vue-sugarss",
+        "path": "./snippets/vuetify.json"
       }
     ]
   }

@@ -1,14 +1,95 @@
-# vuetify-snippets
-Vuetify.js UI components are awesome, aren't they? However, remembering the syntax for all its components can be challenging. That's where this simple extension comes in, offering extensive code intellisense to help you solve this problem effortlessly.
+# Vuetify Snippets Extension 🎉
 
-## Examples
-Enter the snippet prefix (e.g., vapp) and press Tab to insert the complete snippet code.
+Vuetify.js UI components are fantastic, but remembering the syntax for all its components can be challenging. This simple extension provides extensive code IntelliSense to help you use Vuetify components effortlessly. ✨
 
+## Examples 📚
 
-## Roadmap
-This extension is intended to cover all the basic and advanced components with UI scaffold with quality code intellisense with the following.
-- Vue support
+Type the snippet prefix (e.g., `vapp`) and press Tab to insert the complete snippet code.
 
+### `vapp` 🌟
+```html
+<template>
+   <v-app>
+       <v-main>
+           <v-container>
+               <router-view></router-view>
+           </v-container>
+       </v-main>
+   </v-app>
+</template>
 
-## License
-This extension is license under MIT
+<script>
+
+export default {
+   name: '',
+   components: {},
+   props: {},
+   data: () => ({}),
+   computed: {},
+   created: {},
+   mounted: {},
+   methods: {},
+}
+</script>
+
+### `vcomponent` 🔘
+```html
+<template>
+   <div>
+       
+   </div>
+</template>
+
+<script>
+
+export default {
+   name: '',
+   components: {},
+   props: {},
+   data: () => ({}),
+   computed: {},
+   created: {},
+   mounted: {},
+   methods: {},
+}
+</script>
+
+### `vcard 💳
+```html
+<v-card
+  class=""
+  max-width=""
+>
+    <v-card-text>
+        <p class="">
+            
+        </p>
+        <div>
+            
+        </div>
+    </v-card-text>
+    <v-card-actions>
+        <v-btn
+            color=""
+            @click=""
+        >
+            
+        </v-btn>
+    </v-card-actions>
+</v-card>
+
+## Features 🚀
+
+- Extensive IntelliSense for Vuetify components 🧠
+- Covers both basic and advanced components 🔧
+- Provides UI scaffolding for quick development 🏗️
+
+## Roadmap 🛤️
+
+We aim to provide comprehensive support for all Vuetify components, ensuring quality code IntelliSense and Vue support.
+
+## License 📜
+
+This extension is licensed under the MIT License.
+
+### [Donate](https://www.paypal.me/LGonzalezduerto) 💖
