@@ -84,6 +84,11 @@ export default {
 - Covers both basic and advanced components 🔧
 - Provides UI scaffolding for quick development 🏗️
 
+## NEWS Features !!!
+
+- Files with up to 4 columns were added.
+- Some classes for text in Vuetify were added.
+
 ## Roadmap 🛤️
 
 We aim to provide comprehensive support for all Vuetify components, ensuring quality code IntelliSense and Vue support.

@@ -415,6 +415,399 @@
     ],
     "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
   },
+  "v-row-2": {
+    "prefix": "vrow/2",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        xs=\"6\"",
+      "        sm=\"6\"",
+      "        md=\"6\"",
+      "        lg=\"6\"",
+      "        xl=\"6\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        xs=\"6\"",
+      "        sm=\"6\"",
+      "        md=\"6\"",
+      "        lg=\"6\"",
+      "        xl=\"6\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row-3": {
+    "prefix": "vrow/3",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        xs=\"4\"",
+      "        sm=\"4\"",
+      "        md=\"4\"",
+      "        lg=\"4\"",
+      "        xl=\"4\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        xs=\"4\"",
+      "        sm=\"4\"",
+      "        md=\"4\"",
+      "        lg=\"4\"",
+      "        xl=\"4\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        xs=\"4\"",
+      "        sm=\"4\"",
+      "        md=\"4\"",
+      "        lg=\"4\"",
+      "        xl=\"4\"",
+      "    >",
+      "       $3",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row-4": {
+    "prefix": "vrow/4",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        xs=\"3\"",
+      "        sm=\"3\"",
+      "        md=\"3\"",
+      "        lg=\"3\"",
+      "        xl=\"3\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        xs=\"3\"",
+      "        sm=\"3\"",
+      "        md=\"3\"",
+      "        lg=\"3\"",
+      "        xl=\"3\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        xs=\"3\"",
+      "        sm=\"3\"",
+      "        md=\"3\"",
+      "        lg=\"3\"",
+      "        xl=\"3\"",
+      "    >",
+      "       $3",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        xs=\"3\"",
+      "        sm=\"3\"",
+      "        md=\"3\"",
+      "        lg=\"3\"",
+      "        xl=\"3\"",
+      "    >",
+      "       $4",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row:sm": {
+    "prefix": "vrow:sm",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        sm=\"12\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row-2:sm": {
+    "prefix": "vrow/2:sm",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        sm=\"6\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        sm=\"6\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row-3:sm": {
+    "prefix": "vrow/3:sm",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        sm=\"4\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        sm=\"4\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        sm=\"4\"",
+      "    >",
+      "       $3",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row-4:sm": {
+    "prefix": "vrow/4:sm",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        sm=\"3\"",
+
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        sm=\"3\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        sm=\"3\"",
+      "    >",
+      "       $3",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        sm=\"3\"",
+      "    >",
+      "       $4",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row:md": {
+    "prefix": "vrow:md",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        md=\"12\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row-2:md": {
+    "prefix": "vrow/2:md",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        md=\"6\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        md=\"6\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row-3:md": {
+    "prefix": "vrow/3:md",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        md=\"4\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        md=\"4\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        md=\"4\"",
+      "    >",
+      "       $3",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row-4:md": {
+    "prefix": "vrow/4:md",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        md=\"3\"",
+
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        md=\"3\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        md=\"3\"",
+      "    >",
+      "       $3",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        md=\"3\"",
+      "    >",
+      "       $4",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row:lg": {
+    "prefix": "vrow:lg",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        lg=\"12\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row-2:lg": {
+    "prefix": "vrow/2:lg",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        lg=\"6\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        lg=\"6\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row-3:lg": {
+    "prefix": "vrow/3:lg",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        lg=\"4\"",
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        lg=\"4\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        lg=\"4\"",
+      "    >",
+      "       $3",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
+  "v-row-4:lg": {
+    "prefix": "vrow/4:lg",
+    "body": [
+      "<v-row>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        lg=\"3\"",
+
+      "    >",
+      "       $1",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        lg=\"3\"",
+      "    >",
+      "       $2",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        lg=\"3\"",
+      "    >",
+      "       $3",
+      "    </v-col>",
+      "    <v-col",
+      "        cols=\"12\"",
+      "        lg=\"3\"",
+      "    >",
+      "       $4",
+      "    </v-col>",
+      "</v-row>"
+    ],
+    "description": "The <v-row> component is used for layout in Vuetify. It works in conjunction with the <v-col> component to create responsive grids. This example includes a <v-text-field> for input within a column."
+  },
   "v-btn-toggle": {
     "prefix": "vbtntoggle",
     "body": [
@@ -557,12 +950,7 @@
   },
   "v-pagination": {
     "prefix": "vpagination",
-    "body": [
-      "<v-pagination",
-      "   v-model=\"page\"",
-      "   :length=\"$1\"",
-      "></v-pagination>"
-    ],
+    "body": ["<v-pagination", "   v-model=\"page\"", "   :length=\"$1\"", "/>"],
     "description": "The <v-pagination> component is used to create pagination controls. It supports v-model for two-way data binding and the length prop to define the number of pages."
   },
   "v-date-picker": {
@@ -578,16 +966,12 @@
   },
   "v-progress-circular": {
     "prefix": "vprogresscircular",
-    "body": [
-      "<v-progress-circular      ",
-      "   color=\"$1\"",
-      "></v-progress-circular>"
-    ],
+    "body": ["<v-progress-circular ", "   color=\"$1\"/>"],
     "description": "The <v-progress-circular> component is used to display circular progress indicators. It supports color customization."
   },
   "v-progress-linear": {
     "prefix": "vprogresslinear",
-    "body": ["<v-progress-linear value=\"$1\"></v-progress-linear>"],
+    "body": ["<v-progress-linear value=\"$1\"/>"],
     "description": "The <v-progress-linear> component is used to display linear progress indicators. The value prop sets the progress percentage."
   },
   "v-rating": {
@@ -614,7 +998,7 @@
       "       class=\"$2\"",
       "       max-width=\"$3\"",
       "       type=\"card\"",
-      "   ></v-skeleton-loader>",
+      "   />",
       "</v-sheet>"
     ],
     "description": "The <v-skeleton> component is used to display loading placeholders. It supports various styles and sizes."
@@ -731,7 +1115,7 @@
   },
   "template": {
     "prefix": "template",
-    "body": ["<template>", "   $1", "</template>"],
+    "body": ["<template>", "$1", "</template>"],
     "description": "Slot component that allows inserting content into a specific named slot"
   },
   "slot": {
@@ -750,5 +1134,175 @@
       "/>"
     ],
     "description": "Data table component to display tabulated information"
+  },
+  "font-weight-black": {
+    "prefix": ".fontweightblack",
+    "body": ["<div class=\"font-weight-black\">$1</div>"],
+    "description": ""
+  },
+  "font-weight-black-class": {
+    "prefix": "fontweightblack",
+    "body": ["font-weight-black"],
+    "description": ""
+  },
+  "font-weight-bold": {
+    "prefix": ".fontweightbold",
+    "body": ["<div class=\"font-weight-bold\">$1</div>"],
+    "description": ""
+  },
+  "font-weight-bold-class": {
+    "prefix": "fontweightbold",
+    "body": ["font-weight-bold"],
+    "description": ""
+  },
+  "font-weight-medium": {
+    "prefix": ".fontweightmedium",
+    "body": ["<div class=\"font-weight-medium\">$1</div>"],
+    "description": ""
+  },
+  "font-weight-medium-class": {
+    "prefix": "fontweightmedium",
+    "body": ["font-weight-medium"],
+    "description": ""
+  },
+  "font-weight-regular": {
+    "prefix": ".fontweightregular",
+    "body": ["<div class=\"font-weight-regular\">$1</div>"],
+    "description": ""
+  },
+  "font-weight-regular-class": {
+    "prefix": "fontweightregular",
+    "body": ["font-weight-regular"],
+    "description": ""
+  },
+  "font-weight-light": {
+    "prefix": ".fontweightlight",
+    "body": ["<div class=\"font-weight-light\">$1</div>"],
+    "description": ""
+  },
+  "font-weight-light-class": {
+    "prefix": "fontweightlight",
+    "body": ["font-weight-light"],
+    "description": ""
+  },
+  "font-weight-thin": {
+    "prefix": ".fontweightthin",
+    "body": ["<div class=\"font-weight-thin\">$1</div>"],
+    "description": ""
+  },
+  "font-weight-thin-class": {
+    "prefix": "fontweightthin",
+    "body": ["font-weight-thin"],
+    "description": ""
+  },
+  "font-italic": {
+    "prefix": ".fontitalic",
+    "body": ["<div class=\"font-italic\">$1</div>"],
+    "description": ""
+  },
+  "font-italic-class": {
+    "prefix": "fontweightthin",
+    "body": ["font-italic"],
+    "description": ""
+  },
+  "text-h1": {
+    "prefix": ".h1",
+    "body": ["<div class=\"text-h1\">$1</div>"],
+    "description": ""
+  },
+  "text-h2": {
+    "prefix": ".h2",
+    "body": ["<div class=\"text-h2\">$1</div>"],
+    "description": ""
+  },
+  "text-h3": {
+    "prefix": ".h3",
+    "body": ["<div class=\"text-h3\">$1</div>"],
+    "description": ""
+  },
+  "text-h4": {
+    "prefix": ".h4",
+    "body": ["<div class=\"text-h4\">$1</div>"],
+    "description": ""
+  },
+  "text-h5": {
+    "prefix": ".h5",
+    "body": ["<div class=\"text-h5\">$1</div>"],
+    "description": ""
+  },
+  "text-h6": {
+    "prefix": ".h6",
+    "body": ["<div class=\"text-h6\">$1</div>"],
+    "description": ""
+  },
+  "subtitle-1": {
+    "prefix": ".subtitle-1",
+    "body": ["<div class=\"subtitle-1\">$1</div>"],
+    "description": ""
+  },
+  "subtitle-2": {
+    "prefix": ".subtitle-2",
+    "body": ["<div class=\"subtitle-2\">$1</div>"],
+    "description": ""
+  },
+  "body-1": {
+    "prefix": ".body-1",
+    "body": ["<div class=\"body-1\">$1</div>"],
+    "description": ""
+  },
+  "body-2": {
+    "prefix": ".body-2",
+    "body": ["<div class=\"body-2\">$1</div>"],
+    "description": ""
+  },
+  "text-h1-class": {
+    "prefix": "h1-class",
+    "body": ["text-h1"],
+    "description": ""
+  },
+  "text-h2-class": {
+    "prefix": "h2-class",
+    "body": ["text-h2"],
+    "description": ""
+  },
+  "text-h3-class": {
+    "prefix": "h3-class",
+    "body": ["text-h3"],
+    "description": ""
+  },
+  "text-h4-class": {
+    "prefix": "h4-class",
+    "body": ["text-h4"],
+    "description": ""
+  },
+  "text-h5-class": {
+    "prefix": "h5-class",
+    "body": ["text-h5"],
+    "description": ""
+  },
+  "text-h6-class": {
+    "prefix": "h6-class",
+    "body": ["text-h6"],
+    "description": ""
+  },
+  "subtitle-1-class": {
+    "prefix": "subtitle-1-class",
+    "body": ["subtitle-1"],
+    "description": ""
+  },
+  "subtitle-2-class": {
+    "prefix": "subtitle-2-class",
+    "body": ["subtitle-2"],
+    "description": ""
+  },
+  "body-1-class": {
+    "prefix": "body-1-class",
+    "body": ["body-1"],
+    "description": ""
+  },
+  "body-2-class": {
+    "prefix": "body-2-class",
+    "body": ["body-2"],
+    "description": ""
   }
 }
